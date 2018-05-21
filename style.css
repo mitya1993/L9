@@ -1,0 +1,524 @@
+@font-face{
+	font-family: Sabelia;
+	font-family: Tahoma;
+	font-family: Slimamif;
+	font-family: Lato;
+	src:url(fonts/Lato.ttf);
+	src:url(fonts/Sabelia.ttf);
+	src:url(fonts/Tahoma.ttf);
+	src:url(fonts/Slimamif.ttf);
+}
+.all{
+	width: 100%;
+	height: 100%;
+}
+.blok1{
+	width: 100%;
+	min-height: 500px;
+	background: url(image/blok1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.wrap1{
+	width: 80%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.wrap1 img{
+	margin-top: 42px;
+}
+.wrap1 ul{
+	float: right;
+	margin-top: 50px;
+}
+.wrap1 li{
+	display: inline;
+	margin-right: 5px;
+	padding:3px;
+	font-family: Lato;
+	color: white;
+}
+.wrap1 .p1{
+	font-size: 20px;
+	text-align: center;
+	font-family: Lato;
+	color: white;
+	margin-top: 100px;
+}
+.wrap1 .p2{
+	font-size: 50px;
+	text-align: center;
+	font-family: Lato;
+	color: white;
+	margin-top: 35px;
+}
+.wrap1 button{
+	width: 240px;
+	height: 60px;
+	display: block;
+	margin:0 auto;
+	background: transparent;
+	border-radius: 3px;
+	margin-top: 60px;
+	color: white;
+}
+.blok2{
+	width: 100%;
+	min-height: 445px;
+}
+.wrap2{
+	width: 80%;
+	margin: 0 auto;
+}
+.blok2_1{
+	width: 50%;
+	min-height: 445px;
+	float: left;
+}
+.blok2_2{
+	width: 50%;
+	min-height: 445px;
+	float: right;
+}
+.blok2_1 .p1{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 50px;
+	font-family: Lato;
+	color: rgb(34,34,34);
+}
+.blok2_1 .p2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 72px;
+	font-size: 14px;
+	font-family: Lato;
+	color: rgb(155,155,155);
+}
+.blok2_1 .p3{
+	padding-left: 72px;
+	font-size: 14px;
+	font-family: Lato;
+	color: rgb(155,155,155);
+}
+.blok2_2 img{
+	display: block;
+	padding-top: 105px;
+}
+.blok3{
+	width: 100%;
+	min-height: 440px;
+	background: rgb(250,250,250);
+}
+.wrap3{
+	width: 80%;
+	min-height: 440px;
+	margin: 0 auto;
+}
+.blok3_1{
+	width: 50%;
+	min-height: 440px;
+	float: left;
+}
+.blok3_1 img{
+	display: block;
+	padding-top: 115px;
+	margin: 0 auto;
+}
+.blok3_2{
+	width: 50%;
+	min-height: 440px;
+	float: right;
+}
+.p3_1{
+	font-size: 50px;
+	font-family: Lato;
+	padding-top: 115px;
+	text-align: center;
+}
+.blok3_2 .p3_2, .p3_3{
+	font-size: 14px;
+	font-family: Lato;
+	padding-top: 30px;
+	color: rgb(155,155,155);
+}
+.blok4{
+	width: 100%;
+	min-height: 610px;
+}
+.wrap4{
+	width: 80%;
+	height: 590px;
+	margin: 0 auto;
+}
+.blok4 .blok4_1, .blok4_2{
+	width: 50%;
+	min-height: 610px;
+} 
+.blok4_1{
+	float: left;
+}
+.blok4_2{
+	float:right;
+}
+.spisok1 li{
+	width: 50%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.spisok2 li{
+	width: 50%;
+margin: 0 auto;
+}
+.spisok1 li:nth-child(1){
+background: url(image/wrap4_1_1.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+.spisok1 li:nth-child(2){
+background: url(image/wrap4_1_3.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+.spisok1 li:nth-child(3){
+background: url(image/wrap4_1_5.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+/*--------------------------------------------*/
+.spisok2 li:nth-child(1){
+background: url(image/wrap4_2_1.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+.spisok2 li:nth-child(2){
+background: url(image/wrap4_2_3.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+.spisok2 li:nth-child(3){
+background: url(image/wrap4_2_5.jpg) no-repeat ;
+padding: 0 0 0 90px;
+}
+.spisok2{
+	padding-top: 100px;
+}
+.spisok2 h2{
+	color: rgb(34,34,34);
+	text-align: center;
+	font-family: Lato;
+	font-size: 22px;
+}
+.spisok2 p{
+	color: rgb(192,192,192);
+	font-family: Lato;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.spisok2 li{
+	margin: 20px;
+}
+.spisok1{
+	padding-top: 100px;
+}
+.spisok1 h2{
+	color: rgb(34,34,34);
+	text-align: center;
+	font-family: Lato;
+	font-size: 22px;
+}
+.spisok1 p{
+	color: rgb(192,192,192);
+	font-family: Lato;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.spisok1 li{
+	margin: 20px;
+}
+.blok5{
+	width: 100%;
+	min-height: 810px;
+	background: rgb(250,250,250);
+}
+.wrap5{
+	width: 80%;
+	background: rgb(250,250,250);
+	margin: 0 auto;
+}
+.p5_1{
+	text-align: center;
+	font-family: Lato;
+	font-size: 60px;
+	
+}
+.p5_2{
+	text-align: center;
+	font-family: Lato;
+	font-size: 13px;
+	color: rgb(192,192,192);
+}
+
+.blok5_1{
+	width: 100%;
+	height: 265px;
+	background: rgb(250,250,250);
+
+}
+.image{
+	width: 30%;
+	background: rgb(250,250,250);
+	float: left;
+	padding-top: 42px;
+}
+.image img{
+	display: block;
+	margin: 0 auto;
+}
+.text1{
+	width: 70%;
+	background: rgb(250,250,250);
+	margin-top: 72px;
+float: right;
+}
+.text1_1{
+	width: 636px;
+	height: 168px;
+	background:rgb(255,255,255);
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.p5_1_1{
+	font-family: Lato;
+	color: rgb(150,150,150);
+	padding-top: 34px;
+	padding-left: 78px;
+	padding-right: 80px;
+	}
+.p5_1_2{
+	color: rgb(136,159,205);
+	font-family: Lato;
+	padding-top: 20px;
+	padding-left: 78px;
+	padding-right: 80px;
+}
+/*вторая часть пятого блока*/
+.blok5_2{
+	width: 100%;
+	height: 265px;
+	background: rgb(250,250,250);
+}
+.text2{
+	width: 70%;
+	background: rgb(250,250,250);
+	margin-top: 72px;
+	float: left;
+}
+.text2_1{
+	width: 636px;
+	height: 168px;
+	background: rgb(255,255,255);
+	box-shadow:0 0 10px rgba(0,0,0,0.5);
+}
+.p5_2_1{
+	font-family: Lato;
+	color: rgb(150,150,150);
+	padding-top: 34px;
+	padding-left: 78px;
+	padding-right: 80px;
+}
+.p5_2_2{
+	color: rgb(136,159,205);
+	font-family: Lato;
+	padding-top: 20px;
+	padding-left: 80px;
+}
+.image1{
+	width: 30%;
+	background: rgb(250,250,250);
+	float: right;
+	padding-top: 42px;
+}
+.image1 img{
+	display: block;
+	margin: 0 auto;
+}
+/*шестой блок*/
+.blok6{
+	width: 100%;
+	height: 160px;
+	background: white;
+}
+.wrap6{
+	width: 70%;
+	height: 160px;
+	margin:0 auto;
+	background:white;
+}
+.wrap6 img{
+	display: inline-block;
+	padding-left: 45px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+/*седьмой блок*/
+.blok7{
+	width: 100%;
+	height: 800px;
+	background:rgb(17,17,17);
+	padding-top: 102px;
+	padding-bottom: 60px;
+}
+.wrap7{
+	width: 80%;
+	height: 800px;
+	background: rgb(17,17,17);
+	margin: 0 auto;
+}
+.amazing-team{
+	text-align: center;
+	font-family: Lato;
+	font-size: 60px;
+	color: white;
+}
+.obzac{
+	font-size: 22px;
+	color: rgb(119,119,119);
+	text-align: center;
+	font-family: Lato;
+}
+
+
+/*работа с блоками  , на которых изображены разработчики*/
+/* Kim Richardson*/
+.kim{
+	width: 34%;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.kim img{
+	margin-top: 70px;
+}
+.kim-tho{
+	font-family: Lato;
+}
+.marketolog{
+	text-align: center;
+	font-family: Lato;
+	color: white;
+}
+/*RICO Massimo*/
+.rico{
+	width: 34%;
+	float: left;
+	text-align: center;
+
+}
+.rico img{
+	margin-top: 70px;
+}
+.rico p{
+	text-align: center;
+	font-family: Lato;
+	color: white;
+}
+/*UKU Masson*/
+.uku{
+	width: 32%;
+	float: left;
+	text-align: center;
+}
+.uku img{
+	margin-top: 70px;
+}
+.uku p{
+	text-align: center;
+	font-family: Lato;
+	color: white;
+}
+.blok7 ul{
+	margin-bottom: 50px;
+}
+.blok7 li{
+	display: inline;
+	margin-right: 5px;
+	padding:3px;
+}
+.p7{
+	text-align: center;
+	font-family: Lato;
+	font-size: 22px;
+	color: rgb(232,232,232);
+}
+
+/* Работа с восьмым блоком работа с формами и всем остальным ,что есть в блоке blok8
+*/
+
+.blok8{
+	width: 100%;
+	height: 638px;
+	background: rgb(118,143,198);
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.wrap8{
+	width: 70%;
+	height: 638px;
+	margin: 0 auto;
+	background: rgb(118,143,198);
+}
+.blok8-1{
+	width: 45%;
+	height: 406px;
+	float: left;
+	background:rgb(118,143,198);
+}
+.blok8-2{
+	width: 45%;
+	height: 406px;
+	float: right;
+	background:rgb(118,143,198);
+}
+/* работа с текстовыми полями в блоке
+blok8-1*/
+.blok8-1 h1{
+	font-family: Lato;
+	font-size: 60px;
+	color:rgb(255,255,255);
+}
+.blok8-1 p{
+	color: rgb(255,255,255);
+	font-family: Lato;
+	font-size:18px;
+	margin-top: 15px;
+}
+.spisok8-1{
+	float: left;
+}
+.spisok8-1 li{
+	margin-top:50px;
+}
+
+
+.spisok8-2{
+	float: right;
+}
+.spisok8-2 li{
+	margin-top:52px; 
+}
+.blok8-2 input{
+	width: 100%;
+	height: 50px;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+.blok8-2 textarea{
+	width: 100%;
+	height: 210px;
+	border-radius: 3px;
+	padding-top: 15px;
+	font-size: 18px;
+
+}
+.foot{
+	text-align: center;
+	font-size: 16px;
+	font-family: Lato;
+	color: rgb(255,255,255);
+}
